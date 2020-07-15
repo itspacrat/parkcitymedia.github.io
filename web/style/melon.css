@@ -133,3 +133,13 @@ more relevant class(es) */
 	border-radius:8px 8px 8px 8px;
 	background-color:#001935;
 }
+
+/* Always remember to responsive-ify your code.
+if you don't have the balls to do this, then
+you don't need to be making websites like this
+in the current year, 2020. grow a pair, take
+the time, and make it easier for the next guy,
+please. */
+@media () {
+
+}
