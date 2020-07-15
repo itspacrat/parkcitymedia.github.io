@@ -17,6 +17,11 @@ grown :,)
 // good job, Blake -Blake
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
+
+/* Font scss variables */
+$text_color_foreground: #f0f;
+$text_font_info: "Nunito", sans-serif normal;
+
 /* elements */
 html {
 	/*
@@ -38,9 +43,8 @@ body {
 //// might just do an inherit
 p {
 	background-color:rgba(0, 0, 0, 0);
-	color:#fff;
-	font-family:"Nunito", sans-serif;
-	font-style:normal;
+	color:$text_color_foreground;
+	font:$text_font_info;
 }
 
 // the inherit is a good start, needs work
