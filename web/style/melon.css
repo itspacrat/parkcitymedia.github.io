@@ -59,14 +59,12 @@ might just do an inherit */
 	}
 
 	/* i need to standardize this shit yikes */
-	/*does none work for this?
-	transparent sounds wonky */
 	h1 {
 		background-color: none;
 		font: var(--text-font-info);
 		color: (var(--text-color-fg));
 	}
-	/* really? you want EVERY div to do this? u sure bro? */
+	
 	div {
 		border-style: solid;
 		border-width: 2px;
