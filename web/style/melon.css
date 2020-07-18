@@ -10,17 +10,20 @@ good job, Blake -Blake */
 @import url("https://fonts.googleapis.com/css?family=Nunito"); /* */
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC"); /* */
 
-* {
-	box-sizing: border-box;
+/* global constants: */
+:root {
+	--soundcloud-orange: #f60;
+	--tumblr-blue-dark: #001935;
+	--text-background-none: rgba(0, 0, 0, 0);
 }
 
+html {
+	background-color:var(--melon-blue);
+}
 /* aspect ratios larger than 4:3 */
 @media only screen and (max-height: 133.33vw) {
 	/* :root selector variables */
 	:root {
-		--soundcloud-orange: #f60;
-		--tumblr-blue-dark: #001935;
-		--text-background-none: rgba(0, 0, 0, 0);
 		--text-font-info: "Nunito", sans-serif;
 		--text-color-fg: #fff;
 	}
@@ -73,12 +76,6 @@ might just do an inherit */
 		background-color: rgba(40, 80, 100, 0.8);
 	}
 
-	/* this SHOULD have been a variable in the
-:root selector but whatever */
-	.melonblue {
-		color: #c4f0ff;
-	}
-
 	/* unimportant. will merge with a (some)
 more relevant class(es) */
 	
@@ -122,7 +119,10 @@ more relevant class(es) */
 		color: fff;
 		border-style: solid;
 		border-color: var(--text-background-none);
-		border-radius: 8px 8px 8px 8px;
+		border-radius: 8px;
 		background-color: var(--tumblr-blue-dark);
 	}
+}
+@media only screen and(min-height: 133.33vw) {
+
 }
