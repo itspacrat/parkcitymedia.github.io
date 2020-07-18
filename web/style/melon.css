@@ -16,8 +16,9 @@ good job, Blake -Blake */
 
 /* :root selector variables */
 :root {
+	--soundcloud-orange:;
 	--text-background-none:rgba(0,0,0,0);
-	--text-font-info: "Nunito", sans-serif normal;
+	--text-font-info: "Nunito", sans-serif;
 	--text-color-fg: #fff;
 }
 
@@ -43,7 +44,7 @@ might just do an inherit */
 p {
 	background-color:rgba(0, 0, 0, 0);
 	color:var(--text-color-fg);
-	font:var(--text-font-info);
+	font-family:var(--text-font-info);
 }
 
 /* the inherit is a good start, needs work */
@@ -102,13 +103,14 @@ more relevant class(es) */
 
 /* soundcloud-styled links */
 .soundcloud {
-	color:inherit;
+	color:var(--soundcloud-orange);
 	background-color:inherit;
 	font-size:inherit;
 	cursor:pointer;
 	transition:background, 0.4s;
 	-webkit-transition:background 0.4s;
 }
+
 .soundcloud:hover {
 	color:fff;
 	border-style:solid;
