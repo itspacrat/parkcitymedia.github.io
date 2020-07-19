@@ -24,7 +24,7 @@ good job, Blake -Blake */
 	--block-inner-color-transparent:rgba(0, 19, 82, 0.466);
 	--text-background-none: rgba(0, 0, 0, 0);
 	--text-color-foreground: #fff;
-	--page-time-scale: 5s;
+	--page-time-scale: 1s;
 }
 
 html {
@@ -64,7 +64,7 @@ a {
 	background-color:var(--block-color-transparent);
 	text-decoration:none;
 	font-weight: bold;
-	margin-bottom:1em;
+	margin-bottom:10%;
 	transition: font-weight var(--page-time-scale), margin-bottom var(--page-time-scale), color var(--page-time-scale), border-radius var(--page-time-scale);
 }
 
