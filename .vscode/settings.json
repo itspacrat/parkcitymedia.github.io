@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "/media/hdd/Projects/sql/pythonSQLite3/pySQLdb.odb",
+            "driver": "SQLite",
+            "group": "ToyProblems",
+            "name": "LocalTest",
+            "previewLimit": 50
+        }
+    ]
+}
