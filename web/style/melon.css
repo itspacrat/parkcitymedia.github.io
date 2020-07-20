@@ -5,7 +5,7 @@ in the current year, 2020. grow a pair, take
 the time, and make it easier for the next guy,
 please. */
 /* font imports */
-/* if there's anythjign i got right, it was this part right here.
+/* if there's anything i got right, it was this part right here.
 good job, Blake -Blake */
 @import url("https://fonts.googleapis.com/css?family=Nunito"); /* Nunito */
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC"); /* Alegreya Sans */
@@ -20,7 +20,7 @@ good job, Blake -Blake */
 	--font-readable-size:14pt;
 	--font-heading-size:32pt;
 	--page-scale-percent:5%;
-	--block-border-radius:15px 15px 15px 15px;
+	--block-border-radius:15px;
 	--block-color-transparent: rgba(0, 54, 170, 0.637);
 	--block-inner-color-transparent:rgba(0, 19, 82, 0.466);
 	--text-background-none: rgba(0, 0, 0, 0);
@@ -30,7 +30,12 @@ good job, Blake -Blake */
 
 @media only screen and(min-width: 601px) {}
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+	div.left {
+		float:none;
+		clear:both;
+	}
+}
 
 
 html {
@@ -52,7 +57,6 @@ h1 {
 }
 
 div {
-	float:left;
 	margin-bottom:var(--page-scale-percent);
 	border-style: solid;
 	border-color: rgba(40, 40, 100, 0);
@@ -63,6 +67,10 @@ div {
 
 div.parent {
 	background-color: var(--block-color-transparent);
+}
+
+div.left {
+	float:left;
 }
 
 a {
