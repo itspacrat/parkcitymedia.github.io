@@ -110,6 +110,12 @@ a:hover {
 	border-radius: 8px;
 	background-color: var(--tumblr-blue-dark);
 }
+
+br {
+	float:none;
+	clear:both;
+	border-radius:var(--page-scale-percent);
+}
 /*
 @media () {
 	:root {
@@ -168,17 +174,15 @@ a:hover {
 */
 
 /* larger than 4:3 */
-@media only screen and(min-width: 133.33vh) {
+@media only screen and(min-width: 601px) {
 	div {
 		float:left;
 	}
 }
 
 /* aspect ratios smaller than 4:3 */
-@media only screen and (max-width: 133.33vh) {
-	/* :root selector variables */
+@media only screen and (max-width: 600px) {
 
 	div {
 		clear:both;
-	}
 }
