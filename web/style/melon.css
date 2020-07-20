@@ -95,7 +95,7 @@ a:hover {
 	margin-bottom: 8em;
 }
 
-.soundcloud {
+a.soundcloud {
 	color: var(--text-color-fg);
 	background-color: var(--text-background-none);
 	border-radius: none;
@@ -106,7 +106,7 @@ a:hover {
 	-webkit-transition: background var(--page-time-scale), border-radius var(--page-time-scale);
 }
 
-.soundcloud:hover {
+a.soundcloud:hover {
 	color: var(--text-color-fg);
 	border-style: solid;
 	border-color: rgba(0, 0, 0, 0);
@@ -114,7 +114,7 @@ a:hover {
 	background-color: var(--soundcloud-orange);
 }
 
-.tumblr {
+a.tumblr {
 	color: inherit;
 	background-color: inherit;
 	border-radius: none;
@@ -123,7 +123,7 @@ a:hover {
 	transition: background var(--page-time-scale), border-radius var(--page-time-scale);
 	-webkit-transition: background var(--page-time-scale), border-radius var(--page-time-scale);
 }
-.tumblr:hover {
+a.tumblr:hover {
 	color: fff;
 	border-style: solid;
 	border-color: var(--text-background-none);
