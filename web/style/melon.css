@@ -13,55 +13,58 @@ good job, Blake -Blake */
 /* global constants: */
 :root {
 	--melon-blue: #06f;
-	--text-color-accent:#ffc000;
+	--text-color-accent: #ffc000;
 	--text-font-info: "Nunito", sans-serif;
 	--soundcloud-orange: #f60;
 	--tumblr-blue-dark: #001935;
-	--font-readable-size:14pt;
-	--font-heading-size:32pt;
-	--page-scale-percent:5%;
-	--block-border-radius:15px;
+	--font-readable-size: 14pt;
+	--font-heading-size: 32pt;
+	--page-scale-percent: 5%;
+	--block-border-radius: 15px;
 	--block-color-transparent: rgba(0, 54, 170, 0.637);
-	--block-inner-color-transparent:rgba(0, 19, 82, 0.466);
+	--block-inner-color-transparent: rgba(0, 19, 82, 0.466);
 	--text-background-none: rgba(0, 0, 0, 0);
 	--text-color-foreground: #fff;
 	--page-time-scale: 1s;
 }
 
-@media only screen and(min-width: 601px) {}
+@media only screen and(min-width: 601px) {
+}
 
 @media only screen and (max-width: 600px) {
 	div.left {
-		float:none;
-		clear:both;
+		float: none;
+		clear: both;
 	}
 }
-
 
 html {
 	text-align: center;
 	background-color: var(--melon-blue);
 }
 
-p, a, h1 {
-	font-family:var(--text-font-info);
-	color:var(--text-color-foreground);
+p,
+a,
+h1 {
+	font-family: var(--text-font-info);
+	color: var(--text-color-foreground);
 }
 
-p,a {
-	font-size:var(--font-readable-size);
+p,
+a {
+	font-size: var(--font-readable-size);
 }
 
 h1 {
-	font-size:var(--font-heading-size);
+	font-size: var(--font-heading-size);
 }
 
 div {
-	margin-bottom:var(--page-scale-percent);
+	margin-bottom: var(--page-scale-percent);
 	border-style: solid;
 	border-color: rgba(40, 40, 100, 0);
 	border-radius: var(--block-border-radius);
-	background-color:var(--block-inner-color-transparent);
+	background-color: var(--block-inner-color-transparent);
 	padding: var(--page-scale-percent);
 }
 
@@ -70,30 +73,31 @@ div.parent {
 }
 
 div.left {
-	float:left;
+	float: left;
 }
 
 a {
-	border-style:none;
-	border-radius:none;
-	background-color:var(--block-color-transparent);
-	text-decoration:none;
+	border-style: none;
+	border-radius: none;
+	background-color: var(--block-color-transparent);
+	text-decoration: none;
 	font-weight: bold;
-	margin-bottom:10%;
-	transition: font-weight var(--page-time-scale), margin-bottom var(--page-time-scale), color var(--page-time-scale), border-radius var(--page-time-scale);
+	margin-bottom: 10%;
+	transition: font-weight var(--page-time-scale), margin-bottom var(--page-time-scale), color var(--page-time-scale),
+		border-radius var(--page-time-scale);
 }
 
 a:hover {
-	color:var(--text-color-accent);
-	border-radius:var(--block-border-radius);
-	margin-bottom:8em;
+	color: var(--text-color-accent);
+	border-radius: var(--block-border-radius);
+	margin-bottom: 8em;
 }
 
 .soundcloud {
 	color: var(--text-color-fg);
 	background-color: var(--text-background-none);
-	border-radius:none;
-	font-weight:normal;
+	border-radius: none;
+	font-weight: normal;
 	font-size: inherit;
 	cursor: pointer;
 	transition: background var(--page-time-scale), border-radius var(--page-time-scale);
@@ -107,7 +111,6 @@ a:hover {
 	border-radius: 8px 8px 8px 8px;
 	background-color: var(--soundcloud-orange);
 }
-
 
 .tumblr {
 	color: inherit;
