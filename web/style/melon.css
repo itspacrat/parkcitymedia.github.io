@@ -112,11 +112,6 @@ a:hover {
 	background-color: var(--tumblr-blue-dark);
 }
 
-br {
-	float:none;
-	clear:both;
-	border-radius:var(--page-scale-percent);
-}
 /*
 @media () {
 	:root {
