@@ -28,6 +28,11 @@ good job, Blake -Blake */
 	--page-time-scale: 1s;
 }
 
+@media only screen and(min-width: 601px) {}
+
+@media only screen and (max-width: 600px) {}
+
+
 html {
 	text-align: center;
 	background-color: var(--melon-blue);
@@ -169,8 +174,3 @@ a:hover {
 	
 
 */
-
-
-@media only screen and(min-width: 601px) {}
-
-@media only screen and (max-width: 600px) {}
