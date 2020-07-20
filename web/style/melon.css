@@ -70,7 +70,7 @@ a {
 }
 
 a:hover {
-	color:yellow;
+	color:#ffc000;
 	border-radius:var(--block-border-radius);
 	margin-bottom:8em;
 }
