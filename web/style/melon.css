@@ -27,11 +27,13 @@ good job, Blake -Blake */
 	--text-color-foreground: #fff;
 	--page-time-scale: 1s;
 }
-
-@media only screen and(min-width: 601px) {
+/* screen widths greater than 600px */
+@media screen and (min-width: 601px) {
 }
 
-@media only screen and (max-width: 600px) {
+/* screen widths less than 600px (inclusive) */
+@media screen and (max-width: 600px) {
+	/* force single-column layout for non-landscape devices */
 	div.left {
 		float: none;
 		clear: both;
