@@ -13,6 +13,7 @@ good job, Blake -Blake */
 /* global constants: */
 :root {
 	--melon-blue: #06f;
+	--text-color-accent:#ffc000;
 	--text-font-info: "Nunito", sans-serif;
 	--soundcloud-orange: #f60;
 	--tumblr-blue-dark: #001935;
@@ -70,7 +71,7 @@ a {
 }
 
 a:hover {
-	color:#ffc000;
+	color:var(--text-color-accent);
 	border-radius:var(--block-border-radius);
 	margin-bottom:8em;
 }
