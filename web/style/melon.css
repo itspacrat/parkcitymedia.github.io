@@ -40,6 +40,11 @@ good job, Blake -Blake */
 	}
 }
 
+/* enforce box-sizing standard on all children */
+* {
+	box-sizing: border-box;
+}
+
 html {
 	background-color: var(--melon-blue);
 }
