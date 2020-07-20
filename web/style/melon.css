@@ -41,7 +41,6 @@ good job, Blake -Blake */
 }
 
 html {
-	text-align: center;
 	background-color: var(--melon-blue);
 }
 
@@ -156,15 +155,6 @@ a.tumblr:hover {
 		font-family: var(--text-font-info);
 	}
 
-	
-	a {
-		color: inherit;
-		background-color: rgba(0, 0, 0, 0);
-		font-family: inherit;
-		font-style: oblique;
-	}
-
-	
 	h1 {
 		background-color: none;
 		font: var(--text-font-info);
@@ -178,12 +168,5 @@ a.tumblr:hover {
 		border-radius: 7px;
 		background-color: var(--block-color-transparent);
 	}
-
-	
-	
-	.main {
-	}
-
-	
 
 */
