@@ -58,6 +58,7 @@ h1 {
 }
 
 div {
+	width:49%;
 	display:inline-table;
 	margin-bottom: var(--page-scale-percent);
 	border-style: solid;
@@ -72,7 +73,7 @@ div.parent {
 }
 
 div.left {
-	float: left;
+	display:inline;
 }
 
 a {
