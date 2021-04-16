@@ -1,27 +1,31 @@
 /* Always remember to responsive-ify your code.
 if you don't have the balls to do this, then
 you don't need to be making websites like this
-in the current year, 2020. grow a pair, take
+in the current year, 2021. grow a pair, take
 the time, and make it easier for the next guy,
 please. */
 /* font imports */
 /* if there's anything i got right, it was this part right here.
 good job, Blake -Blake */
-@import url("https://fonts.googleapis.com/css?family=Nunito"); /* Nunito */
-@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC"); /* Alegreya Sans */
+
+/* Nunito */
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+/* Alegreya Sans */
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC");
 
 /* global constants: */
 :root {
-	--melon-blue: #06f;
+	--background-base: rgb(11, 110, 69);
+	--background-transparent-base:rgba(0, 54, 170, 0.637);
 	--text-color-accent: #ffc000;
 	--text-font-info: "Nunito", sans-serif;
 	--soundcloud-orange: #f60;
 	--tumblr-blue-dark: #001935;
 	--font-readable-size: 14pt;
 	--font-heading-size: 32pt;
-	--page-scale-percent: 5%;
+	--page-scale-factor: 5%;
 	--block-border-radius: 15px;
-	--block-color-transparent: rgba(0, 54, 170, 0.637);
+	/*--background-transparent-base: rgba(0, 54, 170, 0.637);*/
 	--block-inner-color-transparent: rgba(0, 19, 82, 0.466);
 	--text-background-none: rgba(0, 0, 0, 0);
 	--text-color-foreground: #fff;
@@ -34,7 +38,7 @@ good job, Blake -Blake */
 }
 
 html {
-	background-color: var(--melon-blue);
+	background-color: var(--background-base);
 }
 
 body {
@@ -60,16 +64,16 @@ h1 {
 div {
 	width:49%;
 	display:inline-table;
-	margin-bottom: var(--page-scale-percent);
+	margin-bottom: var(--page-scale-factor);
 	border-style: solid;
 	border-color: rgba(40, 40, 100, 0);
 	border-radius: var(--block-border-radius);
 	background-color: var(--block-inner-color-transparent);
-	padding: var(--page-scale-percent);
+	padding: var(--page-scale-factor);
 }
 
 div.parent {
-	background-color: var(--block-color-transparent);
+	background-color: var(--background-transparent-base);
 }
 
 div.left {
@@ -79,7 +83,7 @@ div.left {
 a {
 	border-style: none;
 	border-radius: none;
-	background-color: var(--block-color-transparent);
+	background-color: var(--background-transparent-base);
 	text-decoration: none;
 	font-weight: bold;
 	margin-bottom: 10%;
@@ -179,7 +183,7 @@ a.tumblr:hover {
 		border-width: 2px;
 		border-color: rgba(40, 40, 100, 0);
 		border-radius: 7px;
-		background-color: var(--block-color-transparent);
+		background-color: var(--background-transparent-base);
 	}
 
 */
