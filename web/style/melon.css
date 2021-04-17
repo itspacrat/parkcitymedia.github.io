@@ -16,7 +16,7 @@ good job, Blake -Blake */
 /* global constants: */
 :root {
 	--background-base: rgb(11, 110, 69);
-	--background-transparent-base:rgba(51, 0, 110, 0.151);
+	--background-overlay:rgba(51, 0, 110, 0.151);
 	--text-color-accent: #ffc000;
 	--text-font-info: "Nunito", sans-serif;
 	--soundcloud-orange: #f60;
