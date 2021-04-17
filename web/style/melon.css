@@ -16,7 +16,7 @@ good job, Blake -Blake */
 /* global constants: */
 :root {
 	--background-base: rgb(11, 110, 69);
-	--background-transparent-base:rgba(0, 54, 170, 0.637);
+	--background-transparent-base:rgba(37, 0, 78, 0.185);
 	--text-color-accent: #ffc000;
 	--text-font-info: "Nunito", sans-serif;
 	--soundcloud-orange: #f60;
@@ -25,8 +25,10 @@ good job, Blake -Blake */
 	--font-heading-size: 32pt;
 	--page-scale-factor: 5%;
 	--block-border-radius: 15px;
+	/* too lazy to remove.
+	wrote long ass coment instead*/
 	/*--background-transparent-base: rgba(0, 54, 170, 0.637);*/
-	--block-inner-color-transparent: rgba(0, 19, 82, 0.466);
+	/*--background-transparent-base: rgba(0, 19, 82, 0.466);*/
 	--text-background-none: rgba(0, 0, 0, 0);
 	--text-color-foreground: #fff;
 	--page-time-scale: 1s;
@@ -68,7 +70,7 @@ div {
 	border-style: solid;
 	border-color: rgba(40, 40, 100, 0);
 	border-radius: var(--block-border-radius);
-	background-color: var(--block-inner-color-transparent);
+	background-color: var(--background-transparent-base);
 	padding: var(--page-scale-factor);
 }
 
