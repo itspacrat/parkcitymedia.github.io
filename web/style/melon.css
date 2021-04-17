@@ -23,6 +23,7 @@ good job, Blake -Blake */
 	--tumblr-blue-dark: rgb(0, 25, 53);
 	--text-background-none: rgba(0, 0, 0, 0);
 	--text-color-foreground: rgb(255, 255, 255);
+	--transparent:rgba(0,0,0,0);
 	/*font vars*/
 	--text-font-info: "Nunito", sans-serif;
 	/*size vars*/
@@ -30,8 +31,8 @@ good job, Blake -Blake */
 	--font-heading-size: 32pt;
 	--block-border-radius: 15px;
 	/*scale vars*/
-	--page-scale-factor: 5%;
-	--page-time-scale: 1s;
+	--page-scale-factor: 5vw;
+	--page-time-scale: 0.5s;
 }
 
 /* enforce box-sizing standard on all children */
@@ -64,7 +65,7 @@ h1 {
 }
 
 div {
-	width:49%;
+	/*width:49%;*/
 	display:inline-table;
 	margin-bottom: var(--page-scale-factor);
 	border-style: solid;
@@ -88,7 +89,7 @@ a {
 	background-color: var(--background-overlay);
 	text-decoration: none;
 	font-weight: bold;
-	margin-bottom: 10%;
+	margin-bottom: 10vw;
 	transition: font-weight var(--page-time-scale), margin-bottom var(--page-time-scale), color var(--page-time-scale),
 		border-radius var(--page-time-scale);
 }
@@ -96,7 +97,7 @@ a {
 a:hover {
 	color: var(--text-color-accent);
 	border-radius: var(--block-border-radius);
-	margin-bottom: 8em;
+	margin-bottom: 2vw;
 }
 
 a.soundcloud {
