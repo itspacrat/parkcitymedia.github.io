@@ -15,18 +15,22 @@ good job, Blake -Blake */
 
 /* global constants: */
 :root {
+	/*color vars*/
 	--background-base: rgb(11, 110, 69);
 	--background-overlay:rgba(51, 0, 110, 0.151);
-	--text-color-accent: #ffc000;
+	--text-color-accent: rgb(255, 192, 0);
+	--soundcloud-orange: rgb(255, 102, 0);
+	--tumblr-blue-dark: rgb(0, 25, 53);
+	--text-background-none: rgba(0, 0, 0, 0);
+	--text-color-foreground: rgb(255, 255, 255);
+	/*font vars*/
 	--text-font-info: "Nunito", sans-serif;
-	--soundcloud-orange: #f60;
-	--tumblr-blue-dark: #001935;
+	/*size vars*/
 	--font-readable-size: 14pt;
 	--font-heading-size: 32pt;
-	--page-scale-factor: 5%;
 	--block-border-radius: 15px;
-	--text-background-none: rgba(0, 0, 0, 0);
-	--text-color-foreground: #fff;
+	/*scale vars*/
+	--page-scale-factor: 5%;
 	--page-time-scale: 1s;
 }
 
