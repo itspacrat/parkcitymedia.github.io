@@ -66,12 +66,12 @@ div {
 	border-style: solid;
 	border-color: rgba(40, 40, 100, 0);
 	border-radius: var(--block-border-radius);
-	background-color: var(--background-transparent-base);
+	background-color: var(--background-overlay);
 	padding: var(--page-scale-factor);
 }
 
 div.parent {
-	background-color: var(--background-transparent-base);
+	background-color: var(--background-overlay);
 }
 
 div.left {
@@ -81,7 +81,7 @@ div.left {
 a {
 	border-style: none;
 	border-radius: none;
-	background-color: var(--background-transparent-base);
+	background-color: var(--background-overlay);
 	text-decoration: none;
 	font-weight: bold;
 	margin-bottom: 10%;
@@ -181,7 +181,7 @@ a.tumblr:hover {
 		border-width: 2px;
 		border-color: rgba(40, 40, 100, 0);
 		border-radius: 7px;
-		background-color: var(--background-transparent-base);
+		background-color: var(--background-overlay);
 	}
 
 */
