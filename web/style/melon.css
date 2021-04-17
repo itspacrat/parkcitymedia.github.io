@@ -65,8 +65,11 @@ h1 {
 }
 
 div {
-	/*width:49%;*/
 	display:inline-table;
+	/*margin-left:calc(100px/var(--page-scale-factor));
+	margin-right:calc(100px/var(--page-scale-factor));*/
+	margin-left:24px;
+	margin-right:24px;
 	margin-bottom: var(--page-scale-factor);
 	border-style: solid;
 	border-color: rgba(40, 40, 100, 0);
