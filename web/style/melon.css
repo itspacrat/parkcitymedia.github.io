@@ -1,19 +1,14 @@
-/* Always remember to responsive-ify your code.
-if you don't have the balls to do this, then
-you don't need to be making websites like this
-in the current year, 2021. grow a pair, take
-the time, and make it easier for the next guy,
-please. */
-/* font imports */
-/* if there's anything i got right, it was this part right here.
-good job, Blake -Blake */
+/*
+melon.css
+Blake Gaynor, 2022
+*/
 
 /* Nunito */
 @import url("https://fonts.googleapis.com/css?family=Nunito");
 /* Alegreya Sans */
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC");
 
-/* global constants: */
+/* global root variables */
 :root {
 	/*color vars*/
 	--background-base: rgb(11, 110, 69);
@@ -66,8 +61,6 @@ h1 {
 
 div {
 	display:inline-table;
-	/*margin-left:calc(100px/var(--page-scale-factor));
-	margin-right:calc(100px/var(--page-scale-factor));*/
 	margin-left:24px;
 	margin-right:24px;
 	margin-bottom: var(--page-scale-factor);
@@ -139,11 +132,11 @@ a.tumblr:hover {
 	background-color: var(--tumblr-blue-dark);
 }
 
-/* screen widths greater than 600px */
+/* for screen widths greater than 600px */
 @media screen and (min-width: 601px) {
 }
 
-/* screen widths less than 600px (inclusive) */
+/* for screen widths less than 600px (inclusive) */
 @media screen and (max-width: 600px) {
 	
 	/* force single-column layout for non-landscape devices */
@@ -152,44 +145,3 @@ a.tumblr:hover {
 		clear: both;
 	}
 }
-
-/*
-@media () {
-	:root {
-		--text-color-fg: #fff;
-	}
-
-	html {
-		background-repeat: repeat-y;
-		background-size: 100% auto;
-		background-position: top;
-		background-attachment: fixed;
-	}
-
-	
-	body {
-		text-align: center;
-	}
-
-
-	p {
-		background-color: rgba(0, 0, 0, 0);
-		color: var(--text-color-fg);
-		font-family: var(--text-font-info);
-	}
-
-	h1 {
-		background-color: none;
-		font: var(--text-font-info);
-		color: (var(--text-color-fg));
-	}
-
-	div {
-		border-style: solid;
-		border-width: 2px;
-		border-color: rgba(40, 40, 100, 0);
-		border-radius: 7px;
-		background-color: var(--background-overlay);
-	}
-
-*/
